@@ -1,0 +1,41 @@
+.circle-svg {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 50%;
+
+  @include mediaMobileXS {
+    display: none;
+  }
+}
+
+g {
+  cursor: pointer;
+
+  text {
+    font-size: 20px;
+    font-family: "PTSans Regular";
+    fill: var(--black-blue);
+    opacity: 0;
+    text-align: center;
+  }
+
+  .circle,
+  text {
+    transition: all 0.8s ease;
+  }
+
+  &:hover {
+    .circle {
+      r: 28px !important;
+      fill: #F4F5F9 !important;
+      stroke: #303e5880 !important;
+    }
+
+    .number {
+      opacity: 1 !important;
+    }
+  }
+  
+}
+

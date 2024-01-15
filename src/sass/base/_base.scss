@@ -1,0 +1,17 @@
+body {
+  font-size: 14px;
+  font-family: var(--font-PTBold);
+  color: var(--black-blue);
+  background-color: var(--page-bg);
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  max-height: 1080px;
+  position: relative;
+
+  @include mediaMobileXS {
+    padding: var(--container-padding);
+  }
+}

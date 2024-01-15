@@ -1,0 +1,11 @@
+@mixin mediaMobileXS() {
+    @media (max-width: 375px) {
+      @content;
+    }
+  }
+
+  @mixin mediaWeb() {
+    @media (max-width: 2000px) {
+      @content;
+    }
+  }

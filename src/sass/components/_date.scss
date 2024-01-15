@@ -1,0 +1,75 @@
+.date {
+  display: flex;
+  margin-left: 200px;
+  align-items: center;
+  gap: 100px;
+
+  text-align: center;
+  font-size: 200px;
+  line-height: 160px;
+  letter-spacing: -4px;
+
+  margin-bottom: 137px;
+
+  .date__left {
+    color: var(--color-dateLeft);
+  }
+
+  .date__right {
+    color: var(--color-dateRight);
+  }
+
+  &__span {
+    font-family: var(--font-PTRegular);
+    margin-bottom: 20px;
+    margin-left: 80px;
+
+    @include mediaMobileXS {
+      margin-left: 0px;
+      position: absolute;
+      bottom: 10px;
+    }
+  }
+
+  @include mediaMobileXS {
+    font-size: 56px;
+    margin-left: 0px;
+    gap: 30px;
+    line-height: normal;
+    margin-bottom: 100px;
+  }
+}
+
+.btn {
+  display: flex;
+  gap: 20px;
+  margin-left: 80px;
+  margin-bottom: 56px;
+
+  button {
+    @include mediaMobileXS {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  @include mediaMobileXS {
+    margin-left: 0px;
+    gap: 10px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+
+.text-history {
+  display: none;
+  position: absolute;
+  margin-top: -60px;
+
+
+  @include mediaMobileXS {
+    display: block;
+  }
+}

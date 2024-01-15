@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "PTSans Bold";
+  src: url("../../assets/fonts/PTSans/pt-sans_bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSans Regular";
+  src: url("../../assets/fonts/PTSans/pt-sans_regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bebasneue Regular";
+  src: url("../../assets/fonts/bebasneue/BebasNeueRegular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --container-width: 1440px;
+  --container-padding: 0 15px;
+
+  --font-PTBold: "PTSans Bold", sans-serif;
+  --font-PTRegular: "PTSans Regular", sans-serif;
+  --font-BebasRegular: "Bebasneue Regular", serif;
+
+
+  --page-bg: #F4F5F9;
+  --black-blue: #42567a;
+  --color-date: #3877ee;
+  --color-dateLeft: #5D5FEF;
+  --color-dateRight: #EF5DA8; 
+
+  --mobile-size: 320px;
+}
